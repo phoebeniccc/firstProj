@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.name-info{
+    text-align: center;
+    
+}
+.age{
+    text-align: center;
+    margin-left: 10px;
+}
+.choice{
+    text-align: center;
+}
+.service-type{
+    text-align: center;
+}
+.additional-info{
+    text-align: center;
+}
+.submission{
+    text-align: center;
+}
+
+#img-form{
+  margin: 18%;
+  float: top;
+  position: top;
+}
+#other-app{
+    text-align: end;
+    float: right;
+}

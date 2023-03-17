@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule Form</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="form.css" />
+    <form action="formsub.html" method="get">
+      <h1>Nails by E</h1>
+      <hr />
+      <a href="/index.html">
+        <span class="back">Go Back</span>
+      </a>
+      <section class="name-info">
+        <h2>Fill out the Form</h2>
+        <label for="name">Enter your Name:</label>
+        <input type="text" name="name" id="name" required />
+      </section>
+      <br />
+      <section class="age">
+        <label for="age">Enter your Age:</label>
+        <input type="text" name="age" id="age" required pattern="[13-100]" />
+      </section>
+      <br />
+      <section class="choice">
+        <span>Is it your first time having Nail Extensions?</span>
+        <br />
+        <br />
+        <label for="yes">Yes</label>
+        <input type="checkbox" name="yes" id="yes" value="yes" required />
+        <label for="no">No</label>
+        <input type="checkbox" name="no" id="no" value="no" required />
+      </section>
+      <br />
+      <section class="service-type">
+        <label for="type">What type of Nail Service do you want?</label>
+        <br />
+        <br />
+        <select name="type" id="type">
+          <option value="soft-gel">Soft-Gel Extension</option>
+          <option value="poly-gel">Poly-Gel Extension</option>
+          <option value="extension removal">Extension Removal</option>
+          <option value="nail design">Nail Design</option>
+        </select>
+      </section>
+      <br />
+      <section class="additional-info">
+        <label for="additional">Anything else you might need. Type here:</label>
+        <br />
+        <textarea
+          name="additional"
+          id="additional"
+          cols="50"
+          rows="5"
+        ></textarea>
+      </section>
+      <br />
+      <section class="submission">
+        <input type="submit" value="Submit" />
+      </section>
+      <br />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+img{
+  width: 150px;
+  border-radius: 75px;
+  float: top;
+  margin-right: 10px;
+}
+
+.username{
+ 
+  text-align:start;
+  
+}
+h2{
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+ 
+}
+
+h1{
+  text-align: center;
+}
+
+p.center{
+  text-align: center;
+  font-weight: bold;
+}
+thead th {
+  background: #985b5b;
+  color:aliceblue;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#newpage{
+  text-align: center;
+}
+
+#examples img{
+  width: 200px;
+  border-radius: 50px;
+  float: top;
+  margin-right: 30px;
+}
+
+#examples{
+  text-align: center;
+}
+p.mid{
+  text-align: center;
+  font-weight: bold;
+}
+#introduction{
+  text-align: center;
+}
+#introduction p{
+  text-align: left;
+}
